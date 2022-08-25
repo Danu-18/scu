@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sofa.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        .head h1{
+font-size: 450%;
+font-family: 'League Gothic', sans-serif;
+}
+.sen h2{
+    font-family: 'Yellowtail', cursive;
+    width: 550px;
+font-size: 150%;
+}
+.center{
+    background-color: #73777B;
+    margin-top: 50px;
+    height: 700px;
+}
+.click button{
+border: 1px solid black;
+width: 150px;
+height: 50px;
+border-radius: 20px;
+background-color: black;
+color:#d4af37;
+}
+.head{
+    margin-left: 110px;
+}
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.sen{
+    margin-left: 110px;
+}
+.click{
+    margin-left: 110px;
+    margin-top: 30px;
+    /* margin-left: 130px; */
+}
+/* header{
+    position: fixed;
+} */
+.pic{
+    margin-left: 1000px;
+    position: absolute;
+    top: 37%;
+    left: -9%;
+}
+.jex{
+    /* margin-top: 100px; */
+    position: absolute;
+    top: 60%;   
+}
+.click button:hover{
+    color: white;
+}
+.head2 h1{
+font-size: 350%;
+font-family: 'League Gothic', sans-serif;
+margin-left: 320px;
+margin-top: 50px;
+color: #d4af37;
+}
+.pic2{
+    display: flex;
+    column-gap: 50px;
+    margin-left: 40px;
+    margin-top: 100px;
+    height: 500px;
+    /* border: 2px solid black; */
+}
+.pi h2{
+    margin-left: 70px;
+    margin-top: 15px;
+font-family: 'League Gothic', sans-serif;
+
+}
+.pi{
+    border: 2px solid black;
+    height: 350px;
+    background-color: white;
+}
+#p2 h2{
+    margin-left: 90px;
+}
+body{
+    background-color: aqua;
+}
+#p1{
+    box-shadow: 10px 10px 10px 0px  #A27B5C;
+    border: 3px solid #A27B5C;
+}
+#p4{
+    box-shadow: 10px 10px 10px 0px #D8CCA3;
+    border: 3px solid #D8CCA3;
+}
+#p2{
+    box-shadow: 10px 10px 10px 0px #B09B71 ;
+    border: 3px solid #B09B71;
+
+}
+#p3{
+    box-shadow: 10px 10px 10px 0px #CEAB93;
+    border: 3px solid #CEAB93;
+}
+.center2{
+    height: 560px;
+}
+#p1:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+#p2:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+#p3:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+#p4:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+.zamp{
+    /* border: 3px solid black; */
+    font-family: 'League Gothic', sans-serif;
+}
+.zamp h1{
+    font-size: 300%;
+margin-left: 370px;
+margin-top: -100px;
+color: #d4af37;
+}
+.zamp h2{
+    font-size: 150%;
+    /* border: 3px solid black; */
+width: 1000px;
+margin-left: 290px;
+color: #d4af37;
+}
+
+
+.zamp span{
+    margin-left: 270px;
+}
+.center3{
+    /* display: flex; */
+    margin-top: 140px;
+    margin-right: 250px;
+}
+.f1{
+    width: 600px;
+    height: 300px;
+     margin-top: 160px;
+     position: absolute; 
+      left: 10%;
+      color: #d4af37;
+
+}
+.f1 h1{
+    font-size: 250%;
+    font-family: 'League Gothic', sans-serif
+
+}
+.f2{
+    margin-left: 400px;
+    position: absolute;
+    top: 240%;
+    margin-left: 820px;
+}
+.f1 h2{
+    margin-top: 10px;
+}
+.center4{
+    margin-top: 1050px;
+}
+.center3{
+    /* display: flex; */
+    margin-top: 140px;
+}
+.f3{
+    width: 600px;
+    height: 300px;
+     margin-top: 90px;
+     position: absolute; 
+      margin-left: 800px;
+      color: #d4af37;
+
+}
+.f3 h1{
+    font-size: 250%;
+    font-family: 'League Gothic', sans-serif
+}
+.f4{
+    margin-left: 400px;
+    position: absolute;
+    top: 350%;
+    left: -21%;
+}
+.f3 h2{
+    margin-top: 10px;
+}
+.f5{
+    width: 600px;
+    height: 300px;
+     margin-top: 860px;
+     position: absolute; 
+    margin-left: 100px;
+      /* left: 10%; */
+      /* bottom: 100%; */
+      color: #d4af37;
+
+}
+
+.f5 h1{
+    font-size: 250%;
+    font-family: 'League Gothic', sans-serif
+}
+.f6{
+    margin-left: 400px;
+    position: absolute;
+    top: 450%;
+    margin-left: 820px;
+}
+.f5 h2{
+    margin-top: 10px;
+}
+.head2 ul{
+    margin-left: 400px;
+    
+}
+.head1{
+    background-color: black;
+border: 2px solid black;
+width: 3000px;
+position: sticky;
+top: 0%;
+}
+    </style>
+
+
+</head>
+<body >
+    <header>
+        <div class="head">
+        <img src="images/logo_sofa.png.jpeg" width="260px" height="110px">
+        <i class="fa-solid fa-cart-shopping"></i>
+       <a href="signin.html" target="_blank"><i class= "fa-solid fa-user-plus"></i></a>
+        <i class="fa-solid fa-heart"></i>
+        <h3>021-334-552-903</h3>
+      
+        </div>
+        </header>
+        <div class="head1">
+            <div class="head2">
+                <ul>
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>SERVICES</li>
+                    <li>GALLERY</li>
+                    <li>CONTACT</li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="center">
+            <div class="jex">
+            <div class="head">
+                <h1>Sofas for now<br>
+                    or forever.</h1>
+            </div>
+            <div class="sen">
+                <h2>Moving this summer? Get 20k off your sofa using code DRSR.</h2>
+            </div>
+            <div class="click">
+                <button><h2>Get Started</h2></button>
+            </div>
+        </div>
+            <div class="pic">
+                <img src="image/s9.jpg" width="550px" height="700px">
+            </div>
+        </div>
+       
+        <div class="center2">
+            <div class="head2">
+                <h1>Shop by Room</h1>
+            </div>
+            <div class="pic2">
+                <div class="pi" id="p1">
+                    <img src="image/s10.jpg" width="300px" height="270px">
+                    <h2>Living Room</h2>
+                </div>
+                <div class="pi" id="p2">
+                    <img src="image/s11.jpg" width="300px" height="270px">
+                    <h2>Bedroom</h2>
+    
+                </div>
+                <div class="pi" id="p3">
+                    <img src="image/s12.jpg" width="300px" height="270px">
+                    <h2>Home Office</h2>
+                </div>
+                <div class="pi" id="p4">
+                    <img src="image/s13.jpg" width="300px" height="270px">
+                    <h2>Dinning Room</h2>
+                </div>
+            </div>
+            <div class="zamp">
+                <h1><b>Join over 10,000 forward thinkers</b></h1>
+                <h2>Our customers save time and money with Feather. Leave the heavy lifting to us.
+                </h2>
+            </div>
+            <div class="center3">
+                <div class="f1">
+                <h1><b>Zero to fully furnished in as little as a week.</b></h1>
+                <h2>Oxford Sofa is available to be delivered and assembled in karachi, Lahore and Sialkot.</h2>
+                </div>
+                <div class="f2">
+                    <img src="image/s2.jpg" width="600px" height="700px">
+                </div>
+            </div>
+            <div class="center4">
+                <div class="f3">
+                    <h1><b>Sofa for business, made simple.</b></h1>
+                    <h2>Say goodbye to cost, complexity, and commitment of sofa. Oxford Sofa makes it easy with affordable rental plans, white glove delivery and best-in-class account service.</h2>
+                    </div>
+                    <div class="f4">
+                        <img src="image/s6.jpg" width="600px" height="700px">
+                    </div>
+            </div>
+            <div class="center5">
+                <div class="f5">
+                <h1><b>Never, ever assemble furniture again.</b></h1>
+                <h2>We move a lot. There are countless floor plans and roommates (oh, and your evolving tastes) between here and there. With Oxford Sofa, furnish your space without breaking a sweat or reaching for a screwdriver.</h2>
+                </div>
+                <div class="f6">
+                    <img src="image/s4.jpg" width="600px" height="700px">
+                </div>
+            </div>
+        </div>
+        <div class="form">
+            <input class="control" type="search" placeholder="SEARCH HERE" aria-label="Search">
+            <button class="btn" type="search">SEARCH</button>
+        </div>
+       
+        <br>
+        <footer>
+            <div class="bot">
+            <div class="end">
+                <h2><b>SUBSCRIBE TO OUR NEWSLETTER</b></h2>
+                <hr>
+            </div>
+            <img src="images/logo_sofa.png.jpeg" width="260px" height="110px">
+            <div class="foot">
+                <h3><b>INFORMATION:</b></h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Store Locator</li>
+                    <li>Delievery Information</li>
+                    <li>Terms & Conditions</li>
+                    <li>Terms Of Service</li>
+                    <li>Exchange/Refund Policy</li>
+                    <li>Privacy Policy</li>
+                    <li>Sofas On Installment</li>
+                </ul>
+                
+            </div>
+            <div class="row">
+                <h5><b>GET IN TOUCH:-</b></h5>
+                <ul>
+                    <li>Call Us From 10AM To 4PM At 03021445643</li>
+                    <li>WhatsApp Us From 10AM To 4PM At 03021445643</li>
+                    <li>Email Us At Info@oxfordsofa.com</li>
+                </ul>
+            </div>
+            <div class="tag">
+                <h2><b>FOLLOW US ON:-</b></h2>
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-youtube"></i>
+             
+            <div class="hit">
+                <h6><b>CUSTOMER SERVICES:-</b></h6>
+                <ul>
+                    <li>Feedback/Complaints</li>
+                    <li>cs@oxfordsofa.com</li>
+                    <li>UAN - (021)111-533-677</li>
+                </ul>
+            </div>
+            </div>
+        </footer>   
+</body>
+</html>
+<script>
+    $
+</script>
